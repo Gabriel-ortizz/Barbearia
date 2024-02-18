@@ -139,8 +139,8 @@ p {
 
 
 .header__brand .brand__logo {
-  width: 2.25rem;
-  height: 3.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
  
  
 }
@@ -326,7 +326,9 @@ main {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 1rem;
 }
+
 
 .card__cover {
   width: 100%;
@@ -350,7 +352,7 @@ main {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .card__description {
@@ -363,6 +365,7 @@ main {
 
 .card__item, .about__item {
   list-style: disc;
+
 }
 
 .card__buttons, .description__buttons {
@@ -558,7 +561,7 @@ footer p {
   .header {
     position: fixed;
     border-bottom: 1px solid var(--primary-border-color);
-    padding: 1rem 6rem;
+    padding: .230rem 3rem;
     background: var(--primary-bg-color);
   }
 
@@ -568,7 +571,6 @@ footer p {
 
   .header__nav {
     display: flex;
-    
   }
 
   .header__nav,
